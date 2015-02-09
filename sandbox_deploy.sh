@@ -36,12 +36,6 @@ echo "Also, We assume you have installed: JAVA, TOMCAT, NPM and MAVEN."
 echo "[Warning] The installation may break existing tomcat applications on this CLI"
 echo ""
 
-echo    # (optional) move to a new line
-if [[ ! $REPLY =~ ^[Yy]$ ]]
-then
-    echo "Not going to proceed, quit without finishing! You can rerun the script to have another try."
-    exit 1
-fi )
 
 echo "Checking JAVA status..."
 
