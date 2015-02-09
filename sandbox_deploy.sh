@@ -36,8 +36,6 @@ echo "Also, We assume you have installed: JAVA, TOMCAT, NPM and MAVEN."
 echo "[Warning] The installation may break existing tomcat applications on this CLI"
 echo ""
 
-
-[[ "$SILENT" ]] || ( read -p "Are you sure you want to proceed?(press Y or y to confirm) " -n 1 -r
 echo    # (optional) move to a new line
 if [[ ! $REPLY =~ ^[Yy]$ ]]
 then
