@@ -118,7 +118,7 @@
     
     <property>
       <name>hbase.rootdir</name>
-      <value>hdfs://sandbox.hortonworks.com:8020/apps/hbase/data</value>
+      <value>hdfs://hbase_host:8020/apps/hbase/data</value>
     </property>
     
     <property>
@@ -158,7 +158,7 @@
     
     <property>
       <name>hbase.zookeeper.quorum</name>
-      <value>sandbox.hortonworks.com</value>
+      <value>zookeeper_host</value>
     </property>
     
     <property>

@@ -170,13 +170,13 @@
     
     <property>
       <name>dfs.namenode.http-address</name>
-      <value>sandbox.hortonworks.com:50070</value>
+      <value>dfs_host:50070</value>
       <final>true</final>
     </property>
     
     <property>
       <name>dfs.namenode.https-address</name>
-      <value>sandbox.hortonworks.com:50470</value>
+      <value>dfs_host:50470</value>
     </property>
     
     <property>
@@ -197,7 +197,7 @@
     
     <property>
       <name>dfs.namenode.secondary.http-address</name>
-      <value>sandbox.hortonworks.com:50090</value>
+      <value>dfs_host:50090</value>
     </property>
     
     <property>

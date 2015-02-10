@@ -3,7 +3,7 @@
     
     <property>
       <name>fs.defaultFS</name>
-      <value>hdfs://sandbox.hortonworks.com:8020</value>
+      <value>hdfs://hdfs_host:8020</value>
       <final>true</final>
     </property>
     
@@ -44,7 +44,7 @@
     
     <property>
       <name>hadoop.proxyuser.hcat.hosts</name>
-      <value>sandbox.hortonworks.com</value>
+      <value>hadoop_host</value>
     </property>
     
     <property>
@@ -74,7 +74,7 @@
     
     <property>
       <name>hadoop.proxyuser.oozie.hosts</name>
-      <value>sandbox.hortonworks.com</value>
+      <value>oozie_host</value>
     </property>
     
     <property>

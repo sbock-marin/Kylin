@@ -58,7 +58,7 @@
     
     <property>
       <name>hive.cluster.delegation.token.store.zookeeper.connectString</name>
-      <value>sandbox.hortonworks.com:2181</value>
+      <value>zookeeper_host:2181</value>
     </property>
     
     <property>
@@ -398,7 +398,7 @@
     
     <property>
       <name>hive.metastore.uris</name>
-      <value>thrift://sandbox.hortonworks.com:9083</value>
+      <value>thrift://thrift_host:9083</value>
     </property>
     
     <property>
@@ -763,7 +763,7 @@
     
     <property>
       <name>hive.zookeeper.quorum</name>
-      <value>sandbox.hortonworks.com:2181</value>
+      <value>zookeeper_host:2181</value>
     </property>
     
     <property>
@@ -783,7 +783,7 @@
     
     <property>
       <name>javax.jdo.option.ConnectionURL</name>
-      <value>jdbc:mysql://sandbox.hortonworks.com/hive?createDatabaseIfNotExist=true</value>
+      <value>jdbc:mysql://mysql_host/hive?createDatabaseIfNotExist=true</value>
     </property>
     
     <property>

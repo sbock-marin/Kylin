@@ -73,7 +73,7 @@
     
     <property>
       <name>mapreduce.jobhistory.address</name>
-      <value>sandbox.hortonworks.com:10020</value>
+      <value>mapreduce_host:10020</value>
     </property>
     
     <property>
@@ -93,7 +93,7 @@
     
     <property>
       <name>mapreduce.jobhistory.webapp.address</name>
-      <value>sandbox.hortonworks.com:19888</value>
+      <value>mapreduce_host:19888</value>
     </property>
     
     <property>
