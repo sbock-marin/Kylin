@@ -383,7 +383,7 @@
     
     <property>
       <name>yarn.resourcemanager.zk-address</name>
-      <value>localhost:2181</value>
+      <value>zookeeper_host:2181</value>
     </property>
     
     <property>
